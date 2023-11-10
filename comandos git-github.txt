@@ -1,21 +1,14 @@
-COMANDOS GIT Y GITHUB 
+UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE"
 NAME: JOEL CHIMBO 
-
-Versión de git
-git version
-
-git config --global user.name "mi nombre"
-Es recomendable utilizar el correo asociado a Github
-
-git config --global user.email "myemail@example.com"
-
+NRC: 13930
+COMANDOS GIT Y GITHUB 
 #Ayuda
 // Ayuda sobre los comandos
 git help
 
 #Mi primer repositorio
-
 // Iniciar un nuevo repositorio
+
 // Crear la carpeta oculta .git
 git init
 
@@ -48,7 +41,8 @@ Diferencias entre -- y ---decorate hace referencia a una palabra
 
 // Vemos información de la rama maestra
 git status -s -b
-git status -sb //Hace lo mismo que el comando anterior
+git status -sb 
+//Hace lo mismo que el comando anterior
 
 
 #Creando alias globales
