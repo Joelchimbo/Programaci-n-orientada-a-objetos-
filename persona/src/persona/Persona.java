@@ -1,10 +1,9 @@
 
 package persona;
 
-
 public class Persona {
-    String nombre;
-    double id;
+    private String nombre;
+    private double id;
     int edad;
     String sobrenombre;
     
