@@ -36,7 +36,7 @@ public class Calculadoradeareas {
 private static double calcularAreaCuadrado() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingresa el lado del cuadrado: ");
+        System.out.println("Ingresa el lado del cuadrado: ");
         double lado = scanner.nextDouble();
 
         return lado * lado;
@@ -44,7 +44,7 @@ private static double calcularAreaCuadrado() {
 private static double calcularAreaCirculo() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingresa el radio del circulo: ");
+        System.out.println("Ingresa el radio del circulo: ");
         double radio = scanner.nextDouble();
 
         return Math.PI * Math.pow(radio, 2);
@@ -53,10 +53,10 @@ private static double calcularAreaCirculo() {
     private static double calcularAreaTriangulo() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingresa la base del triangulo: ");
+        System.out.println("Ingresa la base del triangulo: ");
         double base = scanner.nextDouble();
 
-        System.out.print("Ingresa la altura del triangulo: ");
+        System.out.println("Ingresa la altura del triangulo: ");
         double altura = scanner.nextDouble();
 
         return (base * altura) / 2;
