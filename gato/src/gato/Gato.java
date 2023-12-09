@@ -19,7 +19,7 @@ public class Gato {
         System.out.println(this.nombre+" Empezo a ronoronear");
     }
     public static void main(String[] args) {
-        Gato gato1= new Gato("MISI","bllanco",2);
+        Gato gato1= new Gato("ARISTOTELES","bllanco",2);
         gato1.lamer();
         gato1.ronronear();
     }
