@@ -29,7 +29,7 @@ public void morder(){
 
 }
 public static void main(String[] args){
-    Perro perro1 = new Perro("JACK","negro",4);
+    Perro perro1 = new Perro("MAX","cafe",4);
     perro1.correr();
     perro1.ladrar();
     perro1.morder();
